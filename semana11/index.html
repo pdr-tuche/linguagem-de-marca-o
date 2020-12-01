@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://ifpb.github.io/lm/css-guide/css/form/form/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index_files/main.css">
+<body>
+  <main>
+    <h2>Address</h2>
+    <form action="server/server.php" method="GET">
+      <div class="form-group cep">
+        <label for="cep">CEP</label>
+        <input type="text" id="cep">
+      </div>
+      <div class="form-group street">
+        <label for="street">Rua</label>
+        <input type="text" id="street">
+      </div>
+      <div class="form-group number">
+        <label for="number">Número</label>
+        <input type="text" id="number">
+      </div>
+      <div class="form-group neighborhood">
+        <label for="neighborhood">Bairro</label>
+        <input type="text" id="neighborhood">
+      </div>
+      <div class="form-group state">
+        <label for="state">Estado</label>
+        <input type="text" id="state">
+      </div>
+      <div class="form-group city">
+        <label for="city">Cidade</label>
+        <input type="text" id="city">
+      </div>
+      <div class="form-group-reference">
+        <label for="referencia">Informe uma referencia</label>
+        <br>
+        <textarea id="referencia"></textarea>
+      </div>
+      <div>
+        <label for="form-group-combobox">tipo de residencia </label>
+          <select name="tipo de residencia" id="form-group-combobox">
+            <option value=""></option>
+            <option value="CASA">CASA</option>
+            <option value="APARTAMENTO">APARTAMENTO</option>
+          </select>
+      </div>
+      <div>
+        <label for="form-group-login">Login</label>
+        <input type="text" name="login" placeholder="teste" id="form-group-login">
+      </div>
+      <div>
+        <label for="form-group-password">Senha:</label>
+        <input type="password" name="senha" placeholder="000000" id="form-group-password">
+      </div>
+      <div>
+        <input type="submit" value="Enviar">
+      </div>
+      <div>
+        <input type="reset" value="Limpar dados"> 
+      </div>
+      <!-- <input type="submit" value="Cadastrar"> -->
+    </form>
+  </main>
+
+
+</body></html>
